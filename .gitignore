@@ -1,3 +1,4 @@
 *.zip
 *.psd
 Thumb.db
+.gitignore
