@@ -5,14 +5,87 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Document</title>
-  <link href="bootstrap/css/bootstrap.min.css">
-  <link href="styles/main.css">
+  <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="styles/main.css">
   <script type="text/javascript" src="js/jquery-3.1.0.min.js">
-</script>
-<script type="text/javascript" src="bootstrap/js/bootstrap.min.js">
+  </script>
+  <script type="text/javascript" src="bootstrap/js/bootstrap.min.js">
   </script>
 </head>
 <body>
+  <div class="container-fluid" id="main-nav">
+    <div class="container">
+      <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#main-menu" aria-expanded="false">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#" >
+              <img id="logo" src="img/Logo.png" alt="Webpaint">
+            </a>
+          </div>
 
+          <!-- Collect the nav links, forms, and other content for toggling -->
+          <div class="collapse navbar-collapse" id="main-menu">
+            <ul class="nav navbar-nav navbar-right">
+              <li>
+                <a class="text-uppercase" href="#">home</a>
+              </li>
+              <li><a class="text-uppercase" href="#">portfolio</a></li>
+              <li><a class="text-uppercase" href="#">about</a></li>
+              <li><a class="text-uppercase" href="#">blog</a></li>
+              <li><a class="text-uppercase" href="#">contact</a></li>
+            </ul>
+          </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+      </nav>
+    </div>
+  </div>
+<section class="container-fluid" id="slider">
+  <div class="container text-center">
+    <h1>We are <strong>Webpaint</strong></h1>
+    <p><em>digital &amp; branding agency</em> based in Jupiter and we would love to turn ideas into beautiful things.</p>
+    <button class="btn btn-base">see portfolio</button>
+  </div>
+</section>
+<section class="container-fluid" id="goods">
+  <div class="container">
+    <div class="row">
+      <div class="thumb col-lg-3 col-sm-6">
+        <img src="" alt="">
+        <h3>Header</h3>
+        <p>lorem ipsum ololo</p>
+      </div>
+      <div class="thumb col-lg-3 col-sm-6">
+        <img src="" alt="">
+        <h3>Header</h3>
+        <p>lorem ipsum ololo</p>
+      </div>
+      <div class="thumb col-lg-3 col-sm-6">
+        <img src="" alt="">
+        <h3>Header</h3>
+        <p>lorem ipsum ololo</p>
+      </div>
+      <div class="thumb col-lg-3 col-sm-6">
+        <img src="" alt="">
+        <h3>Header</h3>
+        <p>lorem ipsum ololo</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+  <!-- <script>
+
+  $('#logo').click(function(){
+  alert('ololo');
+});
+</script> -->
 </body>
 </html>

@@ -1,0 +1,51 @@
+@import url("fonts.css");
+
+body{
+  background-color: #fff;
+  font-family: 'MyRiad', Arial, sans-serif;
+}
+#main-nav,
+#main-nav .navbar-inverse{
+  background-color: #262626;
+  border: 0;
+  margin: 0;
+  padding: 12px 0;
+}
+
+#main-menu a{
+  font-weight: bold;
+  color: #d9d9d9;
+}
+
+#main-menu a:hover,
+#main-menu a:active,
+#main-menu a:focus{
+  color: #ff6760;
+}
+
+#slider{
+  background-color: #2a2a2a;
+  color: #d9d9d9;
+  padding: 55px 0;
+}
+
+#slider h1{
+  font-size: 60px;
+  margin-bottom: 50px;
+  font-weight: normal;
+}
+#slider p{
+  font-size: 40px;
+  margin-bottom: 50px;
+}
+
+.btn-base{
+  color: #fffafa;
+  background-color: #ff6760;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.btn-base:hover{
+  background-color: #595959;
+  color: #fffafa;
+}
