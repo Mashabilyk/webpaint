@@ -3,6 +3,15 @@
 body{
   background-color: #fff;
   font-family: 'MyRiad', Arial, sans-serif;
+  padding-bottom: 100px;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: bold;
 }
 #main-nav,
 #main-nav .navbar-inverse{
@@ -48,4 +57,38 @@ body{
 .btn-base:hover{
   background-color: #595959;
   color: #fffafa;
+}
+#goods {
+  background-color: #f8f8f8;
+}
+
+.thumb {
+  text-align: center;
+  margin: 90px 0;
+}
+div.thumb>img {
+  height: 54px;
+}
+#features p {
+  font-size: 20px;
+  color:#616161;
+  margin-bottom: 55px;
+}
+#features h2 {
+  font-size: 30px;
+  color:#616161;
+  margin: 58px 0 19px;
+}
+#features button {
+margin-right: 5px;
+}
+#pictures {
+  margin: 21px 0 77px;
+}
+#pictures img {
+  height:230px;
+  margin-top: 10px;
+}
+#pictures div {
+  text-align: center;
 }
